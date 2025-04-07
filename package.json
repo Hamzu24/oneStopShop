@@ -4,6 +4,7 @@
     "build": "next build",
     "dev": "next dev --turbopack",
     "start": "next start"
+    "vercel-build": "npm rebuild bcrypt --build-from-source"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
